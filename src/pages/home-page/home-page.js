@@ -12,7 +12,7 @@ const GAMES = [
     video: "https://www.youtube.com/embed/FYH9n37B7Yw",
     id: nanoid(),
     description:
-      "Вас ждёт бесконечный калейдоскоп приключений Horizon! Совершайте увлекательные поездки по невероятно красивому и самобытному миру Мексики за рулём величайших автомобилей в истории. Начните своё приключение Horizon уже сегодня, добавив игру в свой список желаний!",
+      "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
   },
   {
     image: "/game-covers/battlefield_2042.jpg",
@@ -22,7 +22,7 @@ const GAMES = [
     price: 83,
     id: nanoid(),
     description:
-      "Battlefield™ 2042 — это шутер от первого лица, в котором серия возвращается к легендарным масштабным сражениям. В будущем, где царит хаос, адаптируйтесь и процветайте на постоянно меняющихся полях боя благодаря своему отряду и арсеналу новейших технологий.",
+      "Battlefields changing before your eyes. A cutting-edge arsenal at your disposal. The grand return of all-out warfare. Adapt and overcome in massive-scale 128 player battles* where dynamic storms, environmental hazards, total combat freedom, and Battlefield's signature destruction spark a new breed of Only in Battlefield moments.",
   },
   {
     image: "/game-covers/life_is_strange_true_colors.jpeg",
