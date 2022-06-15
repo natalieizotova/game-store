@@ -1,12 +1,21 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router';
 import { GameBuy } from '../game-buy/game-buy';
 import { GameCover } from '../game-cover';
 import { GameGenre } from '../game-genre';
+import { setCurrentGame } from '../../redux/games/reducer';
 import './game-item.css'
 
 export const GameItem = ({game}) => {
+    const navigate = useNavigate()
+    const dispatch = useDispatch()
+    const handleClick = ()=> {
+        dispatch(setCurrentGame(game))
+        navigate(`/app/${game.title}`)
+    }
     return (
-        <div className='game-item'>
+        <div className='game-item' onClick={handleClick}>
             <GameCover image={game.image}/>
             <div className='game-item_details'>
                 <span className='game-item_title'>{game.title}</span>

@@ -1,0 +1,14 @@
+.order-page{
+    
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.order-page_right{
+    margin-left: 150px;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+}
