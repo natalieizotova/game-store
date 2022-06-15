@@ -12,3 +12,17 @@
     font-size: 22px;
     font-weight: bold;
 }
+
+@media (max-width: 800px){
+    
+
+    .order-page{
+    
+        
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    
+}

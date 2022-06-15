@@ -1,5 +1,6 @@
 .game-page_content{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .game-page_left{
@@ -18,3 +19,29 @@
 .secondary-text{
     color: rgb(80, 82, 84);
 }
+
+
+
+
+@media (max-width: 800px){
+    
+    .game-page_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game-page_left{
+        width:100%;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    iframe{
+        width:95%;
+        height: 250px;
+        
+    }
+    .game-page_right{
+        width: 95%;
+    }
+}
+
